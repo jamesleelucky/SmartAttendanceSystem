@@ -96,7 +96,7 @@ while True:
     cv2.imshow("frame", img_background)
     key = cv2.waitKey(1)
     
-    if key == ord('o'):
+    if key == ord('a'):
         if file_exists:
             with open("Attendance/Attendance_" + date + ".csv", "+a") as csv_file:
                 writer = csv.writer(csv_file)
